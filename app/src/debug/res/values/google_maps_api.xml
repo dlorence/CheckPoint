@@ -1,0 +1,18 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=34:16:E3:AC:95:18:C6:9B:12:F6:14:09:48:55:24:87:48:05:68:BB%3Bcom.example.brandon.checkpoints
+
+    You can also add your credentials to an existing key, using this line:
+    34:16:E3:AC:95:18:C6:9B:12:F6:14:09:48:55:24:87:48:05:68:BB;com.example.brandon.checkpoints
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyARUJOzJiM6e0krR77Ug5OJTrJNcdQoR38
+    </string>
+</resources>

@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#000000">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/map"
+        tools:context="com.example.brandon.checkpoints.MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beginner"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3"
+        android:onClick="beginner"
+        android:background="#7ccc6d"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intermediate"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:onClick="intermediate"
+        android:background="#7ccc6d"
+        android:layout_marginBottom="5dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expert"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/map"
+        android:layout_alignEnd="@+id/map"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3"
+        android:onClick="expert"
+        android:background="#7ccc6d"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:textSize="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_alignTop="@+id/map"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="40dp"
+        android:text=""
+        android:hint="Enter your name"
+        android:gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#f8000000"
+        android:textAlignment="center"
+        android:autoText="false"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Home"
+    android:weightSum="1"
+    android:background="#000000">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/Logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/routesButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:background="#7ccc6d"
+        android:text="Routes"
+        android:textColor="#FFFFFF"
+        android:textSize="13pt"
+        android:fontFamily="sans-serif-light"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Logo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="routesClick"/>
+
+    <Button
+        android:id="@+id/leaderboardsButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:background="#7ccc6d"
+        android:text="Leaderboards"
+        android:textColor="#FFFFFF"
+        android:textSize="13pt"
+        android:fontFamily="sans-serif-light"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/routesButton"
+        android:layout_marginBottom="20dp"
+        android:onClick="leaderClick"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:background="#7ccc6d"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        android:textSize="13pt"
+        android:fontFamily="sans-serif-light"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/leaderboardsButton"
+        android:onClick="settingsClick"/>
+
+</RelativeLayout>

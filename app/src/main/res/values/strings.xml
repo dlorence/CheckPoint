@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Checkpoint</string>
+    <string name="user_name">Guest</string>
+
+    <string name="hello_world">Hello, </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_leaderboards">Leaderboards</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="routes_string">Routes</string>
+    <string name="leaderboards_string">Leaderboards</string>
+    <string name="settings_string">String</string>
+
+    <string name="b_champ_name">Champ</string>
+    <string name="i_champ_name">Champ 2</string>
+    <string name="a_champ_name">Champ 3</string>
+</resources>
